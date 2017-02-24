@@ -67,7 +67,7 @@ export default function (props, ref, key, opts = {}) {
 
     getGameSrc = function () {
         if (!_.get(props, 'data.game.screenStart')) return;
-        return `../drone-zone-phaser/index.html?v=${opts.level}`;
+        return `../drone-zone-flyer/index.html?v=${opts.level}`;
     };
 
     onOpenReveal = function () {
