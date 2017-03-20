@@ -8,7 +8,7 @@ export default function (props, ref, key) {
             <span className="copy">
                 Help the drone
                 <br />
-                deliver and mail
+                deliver mail and
                 <br />
                 packages around
                 <br />
