@@ -1,5 +1,4 @@
-const src = 'http://res.cloudinary.com/changemyworldnow/' +
-            'video/upload/v1485551205/Drone_Zone_FINAL_FOR_UPLOAD_cv4prl.mov';
+const src = `${CMWN.MEDIA.VIDEO}drone-zone.m4v`;
 
 export default function (props, ref, key) {
     return (
